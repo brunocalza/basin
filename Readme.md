@@ -2,10 +2,10 @@
 
 A CLI app that periodically makes backups of your SQLite database and upload it to Filecoin.
 
-## Building
+## Installing
 
 ```bash
-go build ./cmd/basin
+go install github.com/brunocalza/basin/cmd/basin@latest
 ```
 
 ## Configuring
